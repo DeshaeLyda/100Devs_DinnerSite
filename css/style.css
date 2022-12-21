@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* *******************************BASIC STYLE************************************ */
+
+body{
+    font-size: 62.5%;
+    font-family: 'Playfair Display', serif;
+    background-image: url('../img/bg1.jfif');
+    background-size: cover;
+}
+h1{
+    font-size: 2.5rem;
+}
+p{
+    font-size: 2.0rem;
+}
+h2{
+    font-size: 1.1rem;
+}
+.box{
+    box-shadow: 12px 12px 2px 1px rgba(18, 23, 22, 0.2);
+}
+
+/* *******************************BACKGROUND IMAGES************************************ */
+
+.whiteContainer{
+    background: white;
+    height: 265px;
+    margin: 0 65px 25px 65px;
+    border-radius: 30px;
+}
+
+.container .carribean, .container .lebanese, .container .japenese, .container .ethiopian, .container .nigerian, .container .morrocan, .container .italian, .container .thai{
+    background-size: cover;
+}
+.carribean{
+    background-image: url('../img/carribean.jpg');
+    background-position: center;
+}
+.lebanese{
+    background-image: url('../img/lebanese.jpg');
+}
+.japenese{
+    background-image: url('../img/japan.jpg');
+}
+.ethiopian{
+    background-image: url('../img/ethiopian.jpg');
+    background-position: center;
+}
+.nigerian{
+    background-image: url('../img/nigerian.JPG');
+}
+.morrocan{
+    background-image: url('../img/moroccan.jpg');
+}
+.thai{
+    background-image: url('../img/thai.jpg');
+    background-position: center;
+}
+.italian{
+    background-image: url('../img/italian.jpeg');
+    background-position: center;
+}
+
+/* *******************************Layout************************************ */
+
+.header .container {
+    display: flex;
+    height: 75px;
+    /* border: 2px solid rgba(110, 184, 171, 0.2); */
+    justify-content: space-around;
+    padding: 2px 5px;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+    align-items: center;
+    /* background: rgba(110, 184, 171, 0.2); */
+    color: black;
+}
+.header .container ul{
+    display: flex;
+    flex-basis: 40%;
+    justify-content: space-between;
+    list-style: none;
+}
+.header .container ul li a{
+    text-decoration: none;
+    color: black;
+}
+.container a:hover{
+    background: white;
+}
+
+
+h1, p, .container {
+    display: flex;
+}
+.main .container{
+    margin: 0;
+    height: 10px;
+}
+
+
+h1, p {
+    justify-content: center;
+    margin: 35px;
+}
+
+.container {
+    justify-content: space-around;
+    height: 200px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+    padding-bottom: 25px;
+}
+.container .box{
+    display: flex;
+    border: 2px solid black;
+    flex-basis: 20%;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.container .box h2 {
+    display: flex;
+}
